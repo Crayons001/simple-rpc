@@ -6,7 +6,7 @@ proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")
 # Test your rpc by calling server functions
 num1 = 5
 num2 = 2.5
-myString = "karma"
+myString = "remote"
 
 result1 = proxy.increment(num1)
 result2 = proxy.square_add(num2, num1)

@@ -2,12 +2,15 @@ from xmlrpc.server import SimpleXMLRPCServer
 
 # Functions that the server can perform
 
+# Increment an integer by 1
 def increment(num):
     return num + 1
 
+# Square a floating point number then add an integer to the result
 def square_add(num1, num2):
     return (num1**2) + num2
 
+# Reverse a string
 def reverse_string(inputString):
     return inputString[::-1]
 
